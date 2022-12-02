@@ -26,6 +26,7 @@ spec:
   - 'projected'
   - 'secret'
   - 'downwardAPI'
+  - 'csi'
   hostNetwork: {{ .Values.webhook.hostNetwork }}
   {{- if .Values.webhook.hostNetwork }}
   hostPorts:
